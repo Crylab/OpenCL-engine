@@ -1,0 +1,12 @@
+[package]
+name = "opencl-engine"
+version = "0.1.0"
+authors = ["Shaiakhmetov Ruslan <ruslan.shaiakhmetov@studio.unibo.it>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
